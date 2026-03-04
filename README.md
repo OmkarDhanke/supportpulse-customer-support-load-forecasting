@@ -17,4 +17,22 @@ Python
 Power BI  
 
 ## Project Structure
-(data folders explanation)
+supportpulse-customer-support-load-forecasting
+│
+├── data
+│   ├── raw
+│   └── processed
+│
+├── sql
+│
+├── notebooks
+│
+├── dashboards
+│
+├── reports
+│
+├── images
+│
+├── README.md
+│
+└── requirements.txt
