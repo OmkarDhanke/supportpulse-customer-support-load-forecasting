@@ -17,6 +17,7 @@ Python
 Power BI  
 
 ## Project Structure
+```
 supportpulse-customer-support-load-forecasting
 │
 ├── data
@@ -36,3 +37,4 @@ supportpulse-customer-support-load-forecasting
 ├── README.md
 │
 └── requirements.txt
+```
