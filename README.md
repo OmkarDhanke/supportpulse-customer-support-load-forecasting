@@ -2,7 +2,7 @@
 ---
 ## Customer Support Operations Intelligence & SLA Risk Monitoring
 
-![Status](https://img.shields.io/badge/Status-Completed-success) ![Tools](https://img.shields.io/badge/Tools-Python%20%7C%20PowerBI%20%7C%20Pandas-blue) ![Domain](https://img.shields.io/badge/Domain-Customer%20Support%20Analytics%20%7C%20ITSM-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success) ![Tools](https://img.shields.io/badge/Tools-Python%20%7C%20PowerBI%20%7C%20Pandas-blue) ![Domain](https://img.shields.io/badge/Domain-Customer%20Support%20Analytics-orange)
 
 **An end-to-end operational analytics project that models customer support ticket behavior to identify demand patterns, workload imbalance, service efficiency trends, and SLA risk exposure using Python and Power BI.**
 
@@ -89,7 +89,6 @@ Demand patterns are analyzed across three dimensions:
 * **Ticket demand by month**
 
 ---
-
 ### Operational Insight
 
 Demand analysis reveals that ticket volume follows predictable operational cycles with higher activity during mid-week business hours.
@@ -108,7 +107,7 @@ This page explains **what types of issues generate support tickets and how opera
 
 It identifies the **primary drivers of support demand.**
 
-
+---
 
 ### What This Page Shows
 
@@ -147,7 +146,7 @@ Common ticket categories include:
 * Access Requests
 * General Inquiries
 
-
+---
 ### Operational Insight
 
 Analysis reveals that a **small set of issue categories generates a disproportionate share of tickets**, suggesting opportunities for:
@@ -181,29 +180,24 @@ A scatter plot compares:
 
 This visualization helps identify **teams handling high workloads with slower resolution performance.**
 
----
-
 **SLA Breach Monitoring**
 
 The dashboard tracks tickets exceeding defined SLA resolution targets.
 
 * **SLA Breach Rate:** 10.58%
 
----
-
 **Agent-Level Workload**
 
 Ticket distribution by individual agents highlights workload concentration across staff members.
 
 ---
-
 ### Operational Insight
 
 While resolution times remain relatively consistent across teams, workload distribution varies, indicating potential opportunities to **rebalance ticket assignments across teams.**
 
 ---
 
-# 🔹 Page 4 — Resolution Efficiency & SLA Risk
+# 🔹 Page 4 Resolution Efficiency & SLA Risk
 
 ![Resolution SLA](images/Resolution.png)
 
@@ -219,8 +213,6 @@ This page analyzes **ticket resolution performance and SLA risk exposure across 
 
 Tickets are analyzed by urgency level to confirm that high-priority incidents receive faster response times.
 
----
-
 **SLA Breach Distribution**
 
 Tickets are categorized into:
@@ -230,14 +222,11 @@ Tickets are categorized into:
 
 This helps identify operational areas where service targets are not consistently achieved.
 
----
-
 **Resolution Time by Issue Type**
 
 Different issue categories show varying resolution complexity.
 
 ---
-
 ### Operational Insight
 
 Some issue types consistently require longer resolution times, indicating areas where **process improvements or technical documentation could improve resolution speed.**
@@ -279,25 +268,11 @@ Demand is relatively evenly distributed across regions, suggesting that support 
 
 ---
 
-# 🔁 Dashboard Usage Flow
-
-The dashboard is designed to be used sequentially:
-
-1. **Operations Overview** — understand overall support demand
-2. **Ticket Analysis** — identify issue drivers
-3. **Team Performance** — evaluate operational efficiency
-4. **Resolution Analysis** — monitor SLA risk
-5. **Geo Analysis** — assess regional demand patterns
-
-Each page builds on the previous one and supports a **progressive analytical investigation.**
-
----
-
-# 🛠 Methodology & Technical Design
+## Methodology & Technical Design
 
 The project follows a multi-stage analytics pipeline designed to transform raw support ticket data into actionable operational insight.
 
-### 1️⃣ Data Preparation (Python)
+### Data Preparation (Python)
 
 Python was used to clean and prepare the dataset.
 
@@ -315,7 +290,7 @@ Libraries used:
 
 ---
 
-### 2️⃣ Exploratory Analysis
+### Exploratory Analysis
 
 Exploratory analysis was conducted to identify demand patterns, workload imbalance, and service efficiency trends.
 
@@ -328,7 +303,7 @@ Key analyses included:
 
 ---
 
-### 3️⃣ Visualization Layer (Power BI)
+### Visualization Layer (Power BI)
 
 Power BI was used to transform analytical findings into an interactive operational monitoring dashboard.
 
@@ -342,15 +317,15 @@ Key dashboard features include:
 
 ---
 
-# 🔍 Key Operational Insights
+##  Key Operational Insights
 
-### 1️⃣ Support Demand Peaks Mid-Week
+### Support Demand Peaks Mid-Week
 
 Ticket demand is highest during mid-week business hours, suggesting the need for **dynamic staffing allocation.**
 
 ---
 
-### 2️⃣ Recurring Issues Drive Most Tickets
+### Recurring Issues Drive Most Tickets
 
 A small number of issue categories generate a significant portion of support demand.
 
@@ -358,14 +333,12 @@ Improving documentation or automation for these issues could significantly **red
 
 ---
 
-### 3️⃣ Workload Distribution Across Teams Is Uneven
+### Workload Distribution Across Teams Is Uneven
 
 Certain teams process a higher number of tickets than others, indicating potential **resource allocation inefficiencies.**
 
 ---
-
-#### **Omkar Dhanke**
-
-Connect with me: [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/omkar-dhanke)
+* **Author:** **Omkar Dhanke**    
+* **Connect with me:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omkar-dhanke)
 
 ---
